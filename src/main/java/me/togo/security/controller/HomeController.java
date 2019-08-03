@@ -14,4 +14,9 @@ public class HomeController {
     public String index() {
         return "Welcome to Spring Security Demo " + count.incrementAndGet();
     }
+
+    @GetMapping("/hello")
+    public String hello(){
+        return "Hello, The World!";
+    }
 }
