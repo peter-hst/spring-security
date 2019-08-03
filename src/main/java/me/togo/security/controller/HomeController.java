@@ -1,8 +1,6 @@
 package me.togo.security.controller;
 
 import me.togo.security.vo.User;
-import org.springframework.boot.autoconfigure.security.SecurityProperties;
-import org.springframework.security.access.prepost.PostAuthorize;
 import org.springframework.security.access.prepost.PostFilter;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.access.prepost.PreFilter;
